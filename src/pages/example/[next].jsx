@@ -13,6 +13,7 @@ export default function Example(){
               <img className={styles.linkImage} src="../arrow-forward-outline.svg" alt="home" />
             </Link>
             <h1 className={styles.title}>Página sobre {router.query.next}</h1>
+            <p className={styles.text}>Esta página foi gerada utilizando rotas dinâmicas</p>
         </div>
         
     )
