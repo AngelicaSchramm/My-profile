@@ -12,7 +12,6 @@ export default function Portugues() {
             react1: "O React é uma biblioteca JavaScript que permite a criação de interfaces de usuário interativas e eficientes, além de simplificar o gerenciamento dos componentes da aplicação.",
             react2: " No exemplo da 'Lista de tarefas', é utilizado o useState do React para criar um input controlado e, a cada clique no botão roxo, atualizar o estado da lista adicionando o valor inserido no input. Dessa forma, é possível adicionar novas tarefas à lista de forma fácil e dinâmica.",
             next1: "O Next é um framework baseado em React que permite a renderização no lado do servidor, melhorando a performance e recursos de SEO em sites feitos em React. Um recurso interessante do Next é a utilização de rotas dinâmicas, exemplificadas no 'Gerador de páginas', o que permite a criação de uma página personalizada para o usuário.",
-            next2: "Ao enviar um assunto, a página é gerada e uma requisição é enviada para API do chatGPT gerar um texto sobre o assunto. ",
             reactExample: "Lista de tarefas",
             reactPlaceholder: "Adicione uma tarefa",
             nextExample: "Gerador de páginas",

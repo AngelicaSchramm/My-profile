@@ -12,7 +12,6 @@ export default function ingles() {
             react1: "React is a JavaScript library that allows for the creation of interactive and efficient user interfaces, as well as simplifying the management of application components.",
             react2: " In the example of the 'To-Do List', the useState of React is used to create a controlled input, and with each click on the purple button, update the state of the list by adding the value entered in the input. This way, it's possible to easily and dynamically add new tasks to the list.",
             next1: "Next is a framework based on React that allows for server-side rendering, improving performance and SEO features in React-based websites. An interesting feature of Next is the use of dynamic routes, exemplified in the 'Page Generator', which allows for the creation of a personalized page for the user." ,
-            next2: "When submitting a topic, the page is generated and a request is sent to the chatGPT API to generate text about the topic.",
             reactExample: "To-Do List",
             reactPlaceholder: "Add a task",
             nextExample: "Page Generator",
