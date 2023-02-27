@@ -1,5 +1,5 @@
 import { useRef, useState } from "react"
-import styles from "@/styles/list.module.css"
+import styles from "../styles/list.module.css"
 
 export default function List(props){
     const [inputValue, setinputValue] = useState("")

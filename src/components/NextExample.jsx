@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Link from "next/link"
-import styles from "@/styles/nextExample.module.css"
+import styles from "../styles/nextExample.module.css"
 
 export default function NextExample(props){
     const [input, setInput] = useState("");

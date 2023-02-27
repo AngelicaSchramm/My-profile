@@ -1,4 +1,4 @@
-import styles from '@/styles/level.module.css'
+import styles from '../styles/level.module.css'
 
 
 export default function Level(props){

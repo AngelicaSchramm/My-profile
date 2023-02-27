@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import styles from "@/styles/examplePage.module.css"
+import styles from "../../styles/examplePage.module.css"
 import Link from "next/link"
 
 
