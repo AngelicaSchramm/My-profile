@@ -1,0 +1,54 @@
+
+.example{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #011;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.title{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.inputText{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+
+    background-color: #59C9A5;
+}
+
+.linkImage{
+    width: 20px;
+}
+
+@media(max-width: 991px){
+    .example{
+        width: 90%;
+        min-width: 250px;
+    }
+    .inputText{
+        width: 150px;
+    }
+}

@@ -1,0 +1,29 @@
+
+
+.level{
+    width: 200px;
+    height: 30px;
+    padding: 2px;
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid #10002B;
+    border-radius: 2px;
+    background-color: #fff;
+    overflow: hidden;
+    gap: 2px;
+}
+
+.increment{
+    width: 35px;
+    height: 100%;
+    background-color: #10002B;
+}
+
+@media(max-width: 991px){
+   .level{
+    width: 60%;
+   }  
+   .increment{
+    width: 20%;
+   }   
+}

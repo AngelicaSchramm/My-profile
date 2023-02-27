@@ -1,0 +1,196 @@
+
+
+.destaque{
+    position: relative;
+    width: 100vw;
+    background-color: #10002B;
+    color: #FFFAFF;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+
+.lines{
+    position: absolute;
+    width: 40%;
+    right: 0px;
+    bottom: -20px;
+    z-index: 1;
+}
+
+.lines1{
+    position: absolute;
+    width: 600px;
+    right: 0px;
+    bottom: -50px;
+    z-index: 1;
+}
+.lines2{
+    position: absolute;
+    width: 600px;
+    bottom: -70px;
+    right: -50px;
+    z-index: 1;
+}
+.lines3{
+    position: absolute;
+    width: 600px;
+    bottom: -90px;
+    right: -100px;
+    z-index: 1;
+}
+
+.select{
+    display: inline;
+    align-self: flex-end;
+    justify-self: flex-start;
+    background-color: #10002B;
+    color: #FFFAFF;
+    border: none;
+}
+
+.text{
+    padding: 10rem 0;
+}
+
+.title1{
+    font-size: 4rem;
+}
+
+.destaqueP{
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.levelLine{
+    width: 100vw;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #5A189A;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.levelLineBox{
+    display: inline;
+}
+
+.star{
+    width: 15px;
+    margin: 0 3px;
+}
+
+.reason{
+    width: 100vw;
+    background-color: #FFFAFF;
+    color: #00100B;
+    padding: 6rem 0;
+}
+
+
+.reasonText{
+    font-size: 1.8rem;
+}
+
+.technologies{
+    width: 100vw;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    background-color: #FFFAFF ;
+}
+
+.technologiesCard{
+    padding: 3rem;
+    border-radius: 5px;
+    background-color: #b388eb98;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.technologiesText{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.6rem;
+}
+.technologiesExample{
+    min-width: 300px;
+}
+.contato{
+    width: 100vw;
+    padding: 6rem 0;
+    background-color: #FFFAFF ;
+    color: #000;
+
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.contato .container{
+    align-items: center;
+}
+
+.informacoes{
+    width: max-content;
+    border-radius: 5px;
+    padding: 8px 10px;
+    background-color: #10002B;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+}
+
+
+@media (max-width: 991px){
+    .container{
+        width: 90%;
+    }
+
+    .lines{
+        width: 55%;
+        bottom: -20px;
+    }
+
+    .levelLine{
+        padding: 3rem;
+        font-size: 1.4rem;
+        flex-wrap: wrap;
+    }
+    .technologiesCard{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .technologiesText{
+        width: 100%;
+    }
+
+    .technologiesExample{
+        width: 100%;
+    }
+}
+
+@media (max-width:440px){
+    .lines{
+        width: 80%;
+    }
+}
