@@ -2,7 +2,7 @@ import styles from '@/styles/Home.module.css'
 import portugues from "@/text/portugues"
 import ingles from "@/text/ingles"
 import { use, useEffect, useState } from 'react'
-import Level from "../components/level"
+import Level from "@/components/level"
 import List from "@/components/ReactExample"
 import NextExample from "@/components/NextExample"
 import Link from 'next/link'
