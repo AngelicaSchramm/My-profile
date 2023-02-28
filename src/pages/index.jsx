@@ -86,6 +86,20 @@ export default function Home(props) {
         </div>
       </div>
     </section>
+    <footer className={styles.footer}>
+      <div className={styles.container}>
+       <h2>Angelica Schramm</h2>
+       <div className="contato">
+          <Link className={styles.link} href="https://api.whatsapp.com/send?phone=5547988418520" target="_blank">
+              <img src="logo-whatsapp.svg" alt="whatsapp" />
+          </Link>
+          <Link className={styles.link} href="mailto:angelicaschramm77@gmail.com" target="_blank">
+              <img src="mail-outline.svg" alt="email" />
+          </Link>
+       </div>
+      </div>
+
+    </footer>
     </>
     
   )
